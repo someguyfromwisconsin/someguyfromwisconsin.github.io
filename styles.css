@@ -44,6 +44,7 @@ body {
 
 /* Section Styling */
 .section-title {
+    text-align: center;
     color: #555;
 }
 
@@ -101,14 +102,24 @@ body {
 
 
 /* Profile Section */
-.profile {
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     padding: 50px;
-    text-align: center;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #profile-link {
-    display: block;
-    margin-top: 10px;
     text-decoration: none;
     color: #333;
+    margin: 10px;
+    padding: 10px;
 }
